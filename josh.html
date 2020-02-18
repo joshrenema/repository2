@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <head>
-    <link href='josh.css'>
+    <link href='josh.css' rel='stylesheet' type='text/css' />
 </head>
+
 <body>
-    <div class='main'>
-        <div class='question-box'>
-            <div class='question-box-title'>Question......</div>
-            <div class='question-box-input-box'>
-                <input class='input'>
-                <button class='button'>button</button>
+    <div class='h_app'>        
+
+        <div class='h_mid'>
+            <span class='h_q' class="flexed">What comes after A?</span>
+            <div class = "flexed">
+                    <input class='answer' placeholder='type your answer here'>
+                    <button onclick="checkAnswer()">Check Answer</button>        
             </div>
+            <div class="h_r"></div>
         </div>
     </div>
+
+    <script src='josh.js'></script> 
 </body>
+
 </html>
