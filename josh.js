@@ -28,36 +28,40 @@ var data = {
     ]
 }
 
+// alert(data.questions[2].title);
+
+console.log(data, window);
+
 // var answer = "B";
-var qnum = 0;
+// var qnum = 0;
 
-var questions = [
-    "What comes after A?",
-    "Is 5 bigger than 4?",
-    "What is the color of a banana?",
-    "What is the meaning of life?",
-];
+// var questions = [
+//     "What comes after A?",
+//     "Is 5 bigger than 4?",
+//     "What is the color of a banana?",
+//     "What is the meaning of life?",
+// ];
 
-var answers = [
-    "B",
-    "Yes",
-    "Yellow",
-    "idk",
-];
+// var answers = [
+//     "B",
+//     "Yes",
+//     "Yellow",
+//     "idk",
+// ];
 
-var bgcolor = [
-    "yellow",
-    "#ABC",
-    "rgb(1,150,232)",
-    "aquamarine",
-];
+// var bgcolor = [
+//     "yellow",
+//     "#ABC",
+//     "rgb(1,150,232)",
+//     "aquamarine",
+// ];
 
- var imgs = [
-     "http://placekitten.com/100/100",
-     "http://placekitten.com/200/200",
-     "http://placekitten.com/300/300",
-     "http://placekeanu.com/400/400",
- ];
+//  var imgs = [
+//      "http://placekitten.com/100/100",
+//      "http://placekitten.com/200/200",
+//      "http://placekitten.com/300/300",
+//      "http://placekeanu.com/400/400",
+//  ];
 
 function Start(){
     document.querySelector(".h_q").innerText = data.questions[data.qnum].title;
